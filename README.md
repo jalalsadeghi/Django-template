@@ -1,6 +1,6 @@
-# MIR MEDIA – Minimal Django Task (Dockerized)
+# Django template (Dockerized)
 
-This repository implements the MIR MEDIA Django task **exactly as specified**:
+This repository implements the Django task **exactly as specified**:
 - **Models**: `Article` (title, slug prepopulated from title, content, author FK, publication datetime, online/offline) and `ContactRequest` (email, name, content, date).
 - **Admin**: `Article` fully editable; `ContactRequest` can be **deleted only** (no add/edit).
 - **Views** (all CBV):
